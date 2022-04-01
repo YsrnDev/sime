@@ -27,37 +27,37 @@ const Sidebar = () => {
         <div className="bg-slate-100 h-[1px] opacity-30 mt-5 "></div>
         <ul className="pt-6 px-2 space-y-2">
           <li className="flex rounded-md p-2 cursor-pointer bg-slate-100 bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/" className="flex items-center gap-2">
+            <Link to="sime/" className="flex items-center gap-2">
               <box-icon name="dashboard" type="solid" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && ' hidden'} origin-left duration-300`}>Dashboard</span>
             </Link>
           </li>
           <li className="flex rounded-md p-2 cursor-pointer hover:bg-slate-100 hover:bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/datasiswa" className="flex items-center gap-2">
+            <Link to="sime/datasiswa" className="flex items-center gap-2">
               <box-icon name="list-ul" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && 'hidden'} origin-left duration-300`}>Data Siswa</span>
             </Link>
           </li>
           <li className="flex rounded-md p-2 cursor-pointer hover:bg-slate-100 hover:bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/datapengguna" className="flex items-center gap-2">
+            <Link to="sime/datapengguna" className="flex items-center gap-2">
               <box-icon name="user-account" type="solid" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && 'hidden'} origin-left duration-300`}>Data Pengguna</span>
             </Link>
           </li>
           <li className="flex rounded-md p-2 cursor-pointer hover:bg-slate-100 hover:bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/dataekskul" className="flex items-center gap-2">
+            <Link to="sime/dataekskul" className="flex items-center gap-2">
               <box-icon name="book" type="solid" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && 'hidden'} origin-left duration-300`}>Data Ekstrakurikuler</span>
             </Link>
           </li>
           <li className="flex rounded-md p-2 cursor-pointer hover:bg-slate-100 hover:bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/galeriekskul" className="flex items-center gap-2">
+            <Link to="sime/galeriekskul" className="flex items-center gap-2">
               <box-icon name="images" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && 'hidden'} origin-left duration-300`}>Galeri Ekstrakurikuler</span>
             </Link>
           </li>
           <li className="flex rounded-md p-2 cursor-pointer hover:bg-slate-100 hover:bg-opacity-30 text-gray-300 text-sm items-center">
-            <Link to="/login" className="flex items-center gap-2">
+            <Link to="sime/login" className="flex items-center gap-2">
               <box-icon name="log-in" color="#ffffff" animation="tada-hover"></box-icon>
               <span className={`${!open && 'hidden'} origin-left duration-300`}>Login</span>
             </Link>
