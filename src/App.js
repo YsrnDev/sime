@@ -14,12 +14,12 @@ const App = () => {
         <Sidebar />
         <div className="h-screen flex-1 px-4 pt-12">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/datasiswa" element={<Datasiswa />} />
-            <Route path="/datapengguna" element={<Datapengguna />} />
-            <Route path="/dataekskul" element={<Dataekskul />} />
-            <Route path="/galeriekskul" element={<Galeriekskul />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="sime/" element={<Dashboard />} />
+            <Route path="sime/datasiswa" element={<Datasiswa />} />
+            <Route path="sime/datapengguna" element={<Datapengguna />} />
+            <Route path="sime/dataekskul" element={<Dataekskul />} />
+            <Route path="sime/galeriekskul" element={<Galeriekskul />} />
+            <Route path="sime/login" element={<Login />} />
           </Routes>
         </div>
       </div>
