@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sime/static/css/main.1d20b5c9.css",
+    "main.js": "/sime/static/js/main.d292ed72.js",
+    "static/js/787.6dee9c3a.chunk.js": "/sime/static/js/787.6dee9c3a.chunk.js",
+    "static/media/logo.png": "/sime/static/media/logo.35a712347877c086d4bb.png",
+    "index.html": "/sime/index.html",
+    "main.1d20b5c9.css.map": "/sime/static/css/main.1d20b5c9.css.map",
+    "main.d292ed72.js.map": "/sime/static/js/main.d292ed72.js.map",
+    "787.6dee9c3a.chunk.js.map": "/sime/static/js/787.6dee9c3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d20b5c9.css",
+    "static/js/main.d292ed72.js"
+  ]
+}
