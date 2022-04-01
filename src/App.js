@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/sidebar';
+import Dashboard from './components/dashboard';
+import Datasiswa from './components/datasiswa';
+import Datapengguna from './components/datapengguna';
+import Dataekskul from './components/dataekskul';
+import Galeriekskul from './components/galeriekskul';
+import Login from './components/login';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="flex select-none font-Sans-Pro">
+        <Sidebar />
+        <div className="h-screen flex-1 px-4 pt-12">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/datasiswa" element={<Datasiswa />} />
+            <Route path="/datapengguna" element={<Datapengguna />} />
+            <Route path="/dataekskul" element={<Dataekskul />} />
+            <Route path="/galeriekskul" element={<Galeriekskul />} />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
